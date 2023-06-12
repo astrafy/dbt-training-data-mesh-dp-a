@@ -1,10 +1,17 @@
 # Astrafy - Data Mesh Demo
 ## Data Product A
 
-This repository is a playground to learn how to use dbt with the data mesh paradigm. It contains one data product that
-we will refer to as "Data Product A". This data product will expose some of its models to be used by another data
-named "Data Product B". Data Product B is a separate dbt proejct located on a separate Github repository
+This repository is a playground to learn how to use dbt with the data mesh paradigm. 
+It contains one data product that we will refer to as "Data Product A". 
+This data product will use models from another data product "Data Product B".
+Data Product B is a separate dbt project located in a separate Github repository
 (link [here]([this repository](https://github.com/astrafy/dbt-training-data-mesh-dp-b)))
+
+Lineage for both data products:
+![full-lineage](images/full-lineage.png)
+
+Selected Data Product A lineage:
+![full-lineage](images/lineage-a.png)
 
 
 <p align="center" width="100%">
