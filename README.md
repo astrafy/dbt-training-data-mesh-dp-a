@@ -53,7 +53,7 @@ be written to:
 export GCP_PROJECT=[Google Cloud Project ID that dbt will use]
 ```
 
-7You are now ready to run dbt commands within the dbt repository.
+7. You are now ready to run dbt commands within the dbt repository.
 
 This dbt project comes with two targets:
 
