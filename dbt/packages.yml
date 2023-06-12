@@ -10,6 +10,6 @@ packages:
   - package: brooklyn-data/dbt_artifacts
     version: 2.4.1
   - git: git@github.com:astrafy/dbt-training-data-mesh-dp-b.git
-    revision: lukasz-dbt-meetup
+    revision: main
     subdirectory: dbt
     warn-unpinned: false
