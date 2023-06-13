@@ -1,6 +1,6 @@
 with customers as (
 
-    select * from {{ ref('customers', v=1) }}
+    select * from {{ ref('astrafy_data_mesh_dp_b', 'customers', v=1) }}
 
 ),
 
