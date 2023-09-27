@@ -53,13 +53,7 @@ models:
       datamart:
         +materialized: table
 
-  dbt_artifacts:
-    +enabled: true
-
   elementary:
-    +enabled: true
-
-  dbt_project_evaluator:
     +enabled: true
 
 
